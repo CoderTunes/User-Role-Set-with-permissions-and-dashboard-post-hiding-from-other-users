@@ -1,3 +1,4 @@
+<?php
 //User  Role
 function addUserRole() {
        add_role( 'store-manager', 'Store Manager', array( 'read' => true, 'level_7' => true ) );
